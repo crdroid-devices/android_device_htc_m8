@@ -12,10 +12,10 @@
     "revision": "5.1.1"
   },
   {
-    "remote": "CyanogenMod",
+    "remote": "crd",
     "repository": "android_kernel_htc_msm8974",
     "target_path": "kernel/htc/msm8974",
-    "revision": "cm-12.1"
+    "revision": "5.1.1"
   },
   {
     "remote": "CyanogenMod",

@@ -27,7 +27,7 @@
 # against the traditional rules of inheritance).
 
 # Inherit from common m8-common
--include device/htc/m8-common/BoardConfigCommon.mk
+-include device/htc/m8-common/BoardConfigCommon.mkhttps://github.com/CyanogenMod/android_kernel_htc_msm8974
 
 # Model Ids
 # 0P6B10000 - International
@@ -42,7 +42,7 @@ TARGET_OTA_ASSERT_DEVICE := htc_m8,htc_m8whl,htc_m8wl,m8,m8wl,m8wlv,m8vzw,m8whl,
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8/mkbootimg.mk
-TARGET_KERNEL_CONFIG := cm_m8_defconfig
+TARGET_KERNEL_CONFIG := m8_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/m8/bluetooth
